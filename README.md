@@ -1,2 +1,5 @@
-# song3
-Individual Project 3 (Data Engineering Systems)
+# Individual Project 3 (Data Engineering Systems)
+
+Project #3: SQL [General]
+
+Generate a script that queries a database: MySQL, Sqlite, Spark or a cloud system. The query should be something useful to the user and be portfolio worthy.
