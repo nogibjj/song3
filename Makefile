@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C database.py
+	pylint --disable=R,C sql_app/database.py
 
 all: install lint test
