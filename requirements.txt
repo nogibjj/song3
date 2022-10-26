@@ -1,5 +1,3 @@
-sqlite3==2.6.*
-datetime
 sqlalchemy
 typing
 pydantic
