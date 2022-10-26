@@ -1,0 +1,6 @@
+sqlite3
+datetime
+sqlalchemy
+typing
+pydantic
+fastapi
