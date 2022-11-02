@@ -1,5 +1,9 @@
 import sqlite3 as sql
 
+# check sqlite version
+print('sqlite3.version : ', sqlite3.version)
+print('sqlite3.sqlite-version : ', sqlite3.sqlite_version)
+
 # set up connection to the database
 conn = sql.connect("test.db")
 cur = conn.cursor()
