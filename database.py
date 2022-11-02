@@ -10,6 +10,7 @@ query = """CREATE TABLE IF NOT EXISTS test (
     col1 INTEGER PRIMARY KEY AUTOINCREMENT,
     col2 VARCHAR(200) NOT NULL,
     col3 TEXT default "")"""
+
 cur = conn.cursor()
 cur.execute(query)
 conn.commit()
