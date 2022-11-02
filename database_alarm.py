@@ -17,7 +17,7 @@ class Alarm(QtWidgets.QMainWindow):
         self.datetimeedit.setGeometry(15, 235, 190, 35)
         self.currentDateTime = QtCore.QDateTime.currentDateTime()
         print(self.currentDateTime)
-        
+               
         self.datetimeedit.setDateTime(self.currentDateTime)
         self.datetimeedit.setDisplayFormat("yyyy-MM-dd hh:mm")
 
