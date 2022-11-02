@@ -8,3 +8,4 @@ click
 black
 pytest-cov
 uvicorn[standard]
+PySide6
