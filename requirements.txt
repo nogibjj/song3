@@ -1,11 +1,7 @@
-sqlalchemy
 typing
 pydantic
-fastapi
 pylint
 pytest
 click
 black
 pytest-cov
-uvicorn[standard]
-PySide6
