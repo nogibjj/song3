@@ -10,7 +10,7 @@ This project is to generate a script that queries a database by using Sqlite in 
 - test_sql.py
 - test.db
 
-2. Make my own database and query to it
+2. Make my own database by generating random values
 - query.py
 - database.db
 
