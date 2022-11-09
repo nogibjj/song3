@@ -1,4 +1,4 @@
-name: SQL query test with Github Actions using devcontainers
+name: SQL query test with Github Actions
 on: [push]
 jobs:
   build:
