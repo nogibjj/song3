@@ -6,4 +6,4 @@ cur = conn.cursor()
 def test():
     cur.execute("SELECT * FROM pitching WHERE playerID == 'ryuhy01'")
     rows = cur.fetchall()
-    assert rows[0][0] == 42453
+    assert rows[0][0] == 42452
