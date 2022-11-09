@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	./test_sql.py
+	python -m pytest -vv test_*.py
 
 format:
 	black *.py
