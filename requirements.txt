@@ -5,3 +5,4 @@ pytest
 click
 black
 pytest-cov
+sqlite3
