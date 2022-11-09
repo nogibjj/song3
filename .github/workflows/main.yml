@@ -6,10 +6,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    # Runs a single command using the runners shell
+    # Runs make install
     - name: Run make install
       run: make install
       
-    # Runs a single command using the runners shell
+    # Runs make test
     - name: Run make test
       run: make test
